@@ -13,7 +13,6 @@ import { AsiaComponent } from './asia/asia.component';
 import { CountryDetailsComponent } from './country-details/country-details.component';
 import { EuropeComponent } from './europe/europe.component';
 import { OceaniaComponent } from './oceania/oceania.component';
-import { AmericaDetailsComponent } from './america/america-details/america-details.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +24,6 @@ import { AmericaDetailsComponent } from './america/america-details/america-detai
     CountryDetailsComponent,
     EuropeComponent,
     OceaniaComponent,
-    AmericaDetailsComponent,
   ],
 
   imports: [
