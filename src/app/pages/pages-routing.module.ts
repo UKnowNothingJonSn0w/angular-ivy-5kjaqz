@@ -8,6 +8,7 @@ import { AsiaComponent } from './asia/asia.component';
 import { AfricaDetailsComponent } from './africa/africa-details/africa-details.component';
 import { EuropeComponent } from './europe/europe.component';
 import { OceaniaComponent } from './oceania/oceania.component';
+import { AmericaDetailsComponent } from './america/america-details/america-details.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,7 @@ const routes: Routes = [
       { path: 'africa-details/:name', component: AfricaDetailsComponent },
       { path: 'europe', component: EuropeComponent },
       { path: 'oceania', component: OceaniaComponent },
+      { path: 'america-details/:name', component: AmericaDetailsComponent },
     ],
   },
 ];

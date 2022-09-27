@@ -1,11 +1,24 @@
-<p>africa details works!</p>
 <table class="table">
-  <tbody>
-    <tr *ngFor="let country of countries">
+  <tbody *ngFor="let country of countries">
+    <tr>
       <td>
-        {{ country.name }}
-        >
+        <img src="{{ country.flags.png }}" width="100" />
       </td>
+      <td>
+        {{ country.name.common }}
+      </td>
+    </tr>
+    <tr>
+      <td>Stolica</td>
+      <td>{{ country.capital }}</td>
+    </tr>
+    <tr>
+      <td>Waluta</td>
+      <td>{{ country.currencies.name }}</td>
+    </tr>
+    <tr>
+      <td>Populacja</td>
+      <td>{{ country.population }}</td>
     </tr>
   </tbody>
 </table>

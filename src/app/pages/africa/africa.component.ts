@@ -19,7 +19,7 @@ export class AfricaComponent implements OnInit {
     this.http
       .get<any>('https://restcountries.com/v2/region/africa')
       .subscribe((response) => {
-        // console.log(response);
+        console.log(response);
         this.regions = response;
       });
   }

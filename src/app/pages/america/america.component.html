@@ -1,0 +1,14 @@
+<h1>Ameryka</h1>
+<div class="table">
+  <table class="table">
+    <tbody>
+      <tr *ngFor="let region of regions">
+        <td>
+          <a routerLink="/africa-details/{{ region.name.common }}">
+            {{ region.name.common }}</a
+          >
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
