@@ -5,3 +5,14 @@
 .region {
   background-color: blueviolet;
 }
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover {
+  color: blueviolet;
+}
+h1 {
+  text-align: center;
+}

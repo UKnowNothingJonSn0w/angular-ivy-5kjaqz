@@ -3,11 +3,11 @@ import { Router, ActivatedRoute } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
-  selector: 'app-africa-details',
-  templateUrl: './africa-details.component.html',
-  styleUrls: ['./africa-details.component.css'],
+  selector: 'app-country-details',
+  templateUrl: './country-details.component.html',
+  styleUrls: ['./country-details.component.css'],
 })
-export class AfricaDetailsComponent implements OnInit {
+export class CountryDetailsComponent implements OnInit {
   public name = undefined;
   public countries = [];
 

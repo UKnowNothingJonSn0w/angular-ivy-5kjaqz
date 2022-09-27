@@ -10,7 +10,7 @@ import { AfricaComponent } from './africa/africa.component';
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 import { AmericaComponent } from './america/america.component';
 import { AsiaComponent } from './asia/asia.component';
-import { AfricaDetailsComponent } from './africa/africa-details/africa-details.component';
+import { CountryDetailsComponent } from './country-details/country-details.component';
 import { EuropeComponent } from './europe/europe.component';
 import { OceaniaComponent } from './oceania/oceania.component';
 import { AmericaDetailsComponent } from './america/america-details/america-details.component';
@@ -22,7 +22,7 @@ import { AmericaDetailsComponent } from './america/america-details/america-detai
     AfricaComponent,
     AmericaComponent,
     AsiaComponent,
-    AfricaDetailsComponent,
+    CountryDetailsComponent,
     EuropeComponent,
     OceaniaComponent,
     AmericaDetailsComponent,

@@ -1,3 +1,14 @@
-<p>
-europe works!
-</p>
+<h1>Europa</h1>
+<div class="table">
+  <table class="table">
+    <tbody>
+      <tr *ngFor="let region of regions">
+        <td>
+          <a routerLink="/country-details/{{ region.name.common }}">
+            {{ region.name.common }}</a
+          >
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

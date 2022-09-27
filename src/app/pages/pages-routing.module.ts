@@ -5,7 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { AfricaComponent } from './africa/africa.component';
 import { AmericaComponent } from './america/america.component';
 import { AsiaComponent } from './asia/asia.component';
-import { AfricaDetailsComponent } from './africa/africa-details/africa-details.component';
+import { CountryDetailsComponent } from './country-details/country-details.component';
 import { EuropeComponent } from './europe/europe.component';
 import { OceaniaComponent } from './oceania/oceania.component';
 import { AmericaDetailsComponent } from './america/america-details/america-details.component';
@@ -20,7 +20,7 @@ const routes: Routes = [
       { path: 'africa', component: AfricaComponent },
       { path: 'america', component: AmericaComponent },
       { path: 'asia', component: AsiaComponent },
-      { path: 'africa-details/:name', component: AfricaDetailsComponent },
+      { path: 'country-details/:name', component: CountryDetailsComponent },
       { path: 'europe', component: EuropeComponent },
       { path: 'oceania', component: OceaniaComponent },
       { path: 'america-details/:name', component: AmericaDetailsComponent },
